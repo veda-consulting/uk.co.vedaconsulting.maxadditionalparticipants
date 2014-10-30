@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/participant/config</path>
+    <page_callback>CRM_maxadditionalparticipants_Form_Admin</page_callback>
+    <path_arguments>reset=1</path_arguments>
+    <title>Event Max Participants Settings</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

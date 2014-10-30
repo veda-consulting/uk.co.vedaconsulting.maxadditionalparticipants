@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="uk.co.vedaconsulting.maxadditionalparticipants" type="module">
+  <file>maxadditionalparticipants</file>
+  <name>Control Participants in Events</name>
+  <description>Control Additional Participants in Events</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Veda Consulting</author>
+    <email>support@vedaconsulting.co.uk</email>
+  </maintainer>
+  <releaseDate>2014-10-06</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/maxadditionalparticipants</namespace>
+  </civix>
+</extension>
