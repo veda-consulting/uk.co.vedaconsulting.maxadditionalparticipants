@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <extension key="uk.co.vedaconsulting.maxadditionalparticipants" type="module">
   <file>maxadditionalparticipants</file>
-  <name>Control Participants in Events</name>
-  <description>Control Additional Participants in Events</description>
+  <name>LimitNumberOfAdditionalParticipants</name>
+  <description>Thanks to funding from The Royal Television Society, this extension allows maximum number of attendees / additional participants to be configured for an event.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Veda Consulting</author>
     <email>support@vedaconsulting.co.uk</email>
   </maintainer>
-  <releaseDate>2014-10-06</releaseDate>
+  <releaseDate>2014-10-30</releaseDate>
   <version>1.0</version>
-  <develStage>alpha</develStage>
+  <develStage>stable</develStage>
   <compatibility>
     <ver>4.4</ver>
+    <ver>4.5</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments></comments>
   <civix>
     <namespace>CRM/maxadditionalparticipants</namespace>
   </civix>

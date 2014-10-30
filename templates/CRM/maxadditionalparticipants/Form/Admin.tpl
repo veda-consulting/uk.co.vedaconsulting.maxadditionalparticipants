@@ -40,7 +40,7 @@
         </table>
         <div style='display:none;'>{$form.totalRowCount.html}</div>
         <div class="crm-submit-buttons">
-            <a class="button" onClick="Javascript:buildStringOverrideTable( false );return false;"><span><div class="icon add-icon"></div>{ts}Add Event{/ts}</span></a>
+            <a class="button" onClick="Javascript:buildStringOverrideTable( false );return false;"><span><div class="icon add-icon form-submit"></div>{ts}Add Another{/ts}</span></a>
           {include file="CRM/common/formButtons.tpl" location="bottom"}
         </div> 
     </div>
