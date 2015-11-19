@@ -69,7 +69,7 @@ function maxadditionalparticipants_civicrm_uninstall() {
       }
   }
   CRM_Core_BAO_Navigation::resetNavigation();
-  CRM_Core_DAO::executeQuery("DELETE FROM civicrm_setting WHERE group_name = Event Preferences AND name = max_participants");
+  CRM_Core_DAO::executeQuery("DELETE FROM civicrm_setting WHERE group_name = 'Event Preferences' AND name = 'max_participants'");
   
 
   return _maxadditionalparticipants_civix_civicrm_uninstall();
